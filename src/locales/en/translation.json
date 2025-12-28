@@ -1,0 +1,59 @@
+{
+  "common": {
+    "brandName": "Shkoli.bg",
+    "logoAlt": "Shkoli.bg logo"
+  },
+  "header": {
+    "cta": "Get started"
+  },
+  "home": {
+    "title": "Welcome to shkoli.bg lorem ipsum  dolor sit amet",
+    "subtitle": "Find nearby educational opportunities with confidence. loer lorem lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet, consectetur adipiscing elit.",
+    "heroAlt": "Students studying illustration",
+    "idea": {
+      "heading": "The platform vision in action",
+      "left": "We connect families to nearby educational options with clear guidance, curated insights, and the confidence that each choice is informed by real needs.",
+      "right": "Our experience is designed to remove noise: consistent program details, transparent comparisons, and pathways that adapt to the way parents actually decide.",
+      "button": "Learn how we guide you",
+      "cards": {
+        "discovery": {
+          "title": "Smart discovery",
+          "text": "See programs mapped to your location and goals, with essentials highlighted."
+        },
+        "guidance": {
+          "title": "Personal guidance",
+          "text": "Follow step-by-step cues that keep decisions simple and on track."
+        },
+        "transparency": {
+          "title": "Transparent info",
+          "text": "Compare what matters - hours, costs, outcomes - without digging for details."
+        },
+        "community": {
+          "title": "Community voices",
+          "text": "Learn from real parent feedback and share your own experience with others."
+        }
+      }
+    },
+    "support": {
+      "heading": "Clarity that supports every decision",
+      "copy": "When choices feel urgent, we keep the next step obvious: see what matters, know why it matters, and move with confidence.",
+      "button": "See how it works",
+      "primaryAlt": "Parent reviewing education options on a laptop",
+      "secondaryAlt": "Illustration of students reading and studying",
+      "cards": {
+        "guided": {
+          "title": "Guided flow",
+          "text": "Structured prompts that point you to the right detail at the right time."
+        },
+        "confident": {
+          "title": "Confident choices",
+          "text": "Readable information that surfaces trade-offs without overwhelming you."
+        }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "cta": "Return home"
+  }
+}
