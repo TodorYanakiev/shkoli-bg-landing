@@ -10,7 +10,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['"Inter"', 'system-ui', 'sans-serif'],
+        sans: ['"Wix Madefor Display"', 'system-ui', 'sans-serif'],
       },
     },
   },

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import heroImage from '../assets/hero.png'
 import heroIllustration from '../assets/hero-illustration.svg'
 import { primaryButtonClass } from '../constants/classes'
+import { APP_BASE_URL } from '../constants/env'
 
 type IdeaCard = {
   icon: ReactNode
@@ -132,9 +133,9 @@ const HomePage = (): JSX.Element => {
             <h1 className="text-4xl font-semibold sm:text-5xl lg:text-7xl">{t('home.title')}</h1>
             <p className="max-w-2xl text-lg text-slate-600 sm:text-xl">{t('home.subtitle')}</p>
           </div>
-          <button type="button" className={primaryButtonClass}>
+          <a href={APP_BASE_URL} className={primaryButtonClass}>
             {t('header.cta')}
-          </button>
+          </a>
         </div>
         <div className="flex flex-1 items-center justify-center">
           <img
