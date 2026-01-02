@@ -8,9 +8,29 @@ const resources = {
   bg: { translation: bgTranslation },
 }
 
+const getPreferredLanguage = (): 'en' | 'bg' => {
+  if (typeof navigator === 'undefined') {
+    return 'en'
+  }
+
+  const browserLanguages = navigator.languages && navigator.languages.length > 0
+    ? navigator.languages
+    : [navigator.language]
+
+  const normalized = browserLanguages
+    .filter(Boolean)
+    .map((language) => language.toLowerCase())
+
+  if (normalized.some((language) => language.startsWith('bg'))) {
+    return 'bg'
+  }
+
+  return 'en'
+}
+
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'en',
+  lng: getPreferredLanguage(),
   fallbackLng: 'en',
   interpolation: {
     escapeValue: false,
