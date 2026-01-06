@@ -9,6 +9,10 @@
   background-color: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply font-sans bg-white text-slate-900 antialiased;
 }
@@ -17,18 +21,3 @@ a {
   @apply text-inherit;
 }
 
-.integrations-section {
-  position: relative;
-}
-
-.integrations-section::before {
-  content: '';
-  position: absolute;
-  top: -64px;
-  left: 0;
-  width: 100%;
-  height: calc(100% + 128px);
-  background-color: #2e7b4a; /* brand color from tailwind.config.cjs */
-  transform: skewY(-8deg);
-  z-index: -1;
-}

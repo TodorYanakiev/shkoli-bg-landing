@@ -4,53 +4,119 @@
     "logoAlt": "Лого на Shkoli.bg"
   },
   "header": {
-    "cta": "Започнете"
+    "cta": "Започнете",
+    "navLabel": "Основна навигация"
   },
   "home": {
-    "title": "Добре дошли в Shkoli.bg",
-    "subtitle": "Открийте близки възможности за обучение с увереност.",
+    "eyebrow": "Търсене на училище, без напрежение",
+    "title": "Открийте правилното училище със <highlight>Shkoli.bg</highlight>",
+    "subtitle": "Търси, сравни, избери твоята школа.",
     "heroAlt": "Илюстрация на ученици, които учат",
+    "hero": {
+      "secondaryCta": "Как работи"
+    },
+    "trust": {
+      "eyebrow": "Създадено за уверени решения",
+      "heading": "Създадено с мисъл за семействата",
+      "copy": "Фокусът е върху яснота, местен контекст и глас на общността, за да са решенията информирани.",
+      "items": {
+        "local": "Локален фокус",
+        "criteria": "Ясни критерии",
+        "community": "Гласът на общността"
+      }
+    },
     "idea": {
-      "heading": "The platform vision in action",
-      "left": "We connect families to nearby educational options with clear guidance, curated insights, and the confidence that each choice is informed by real needs.",
-      "right": "Our experience is designed to remove noise: consistent program details, transparent comparisons, and pathways that adapt to the way parents actually decide.",
-      "button": "Learn how we guide you",
+      "heading": "Целта на Shkoli.bg",
+      "left": "Ние свързваме гражданите с близките школи в българските читалища с увереността, че всяко решение е информирано от реални нужди и достъпни ресурси.",
+      "right": "Целим се вашият избор на школа да е информиран спрямо вашите цели, местоположение и бюджет, като същевременно популяризираме дейността на читалищата.",
+      "button": "Виж как те насочваме",
       "cards": {
         "discovery": {
-          "title": "Smart discovery",
-          "text": "See programs mapped to your location and goals, with essentials highlighted."
+          "title": "Лесно търсене",
+          "text": "Намери школи по твоите интереси, нужди и местоположение."
         },
         "guidance": {
-          "title": "Personal guidance",
-          "text": "Follow step-by-step cues that keep decisions simple and on track."
+          "title": "Широк обхват",
+          "text": "Ние работим с българските читалища в София, Варна, Пловдив и Бургас."
         },
         "transparency": {
-          "title": "Transparent info",
-          "text": "Compare what matters - hours, costs, outcomes - without digging for details."
+          "title": "Прозрачност",
+          "text": "Сравни каквото е важно - време, цена, резултати - за нула време."
         },
         "community": {
-          "title": "Community voices",
-          "text": "Learn from real parent feedback and share your own experience with others."
+          "title": "Общност",
+          "text": "Сподели своя опит с други граждани и разбери от тях."
+        }
+      }
+    },
+    "flow": {
+      "eyebrow": "Как работи",
+      "heading": "Ясен път от търсене до избор",
+      "copy": "Избери район, филтрирай по важните критерии и сравни програмите една до друга.",
+      "primaryCta": "Разгледай близките опции",
+      "secondaryCta": "Виж подкрепата при избор",
+      "steps": {
+        "location": {
+          "title": "Започни с района",
+          "text": "Избери квартал или град, за да видиш най-близките опции."
+        },
+        "filters": {
+          "title": "Фокусирай резултатите",
+          "text": "Ползвай цели, график и бюджет, за да стесниш избора."
+        },
+        "compare": {
+          "title": "Сравни с контекст",
+          "text": "Виж ключовите детайли на едно място и избери уверено."
+        }
+      },
+      "panel": {
+        "eyebrow": "Бърз преглед",
+        "title": "Всичко важно, с един поглед",
+        "copy": "Всяка опция показва детайлите, които семействата търсят най-често.",
+        "items": {
+          "distance": {
+            "label": "Разстояние",
+            "value": "15 мин пеша"
+          },
+          "schedule": {
+            "label": "График",
+            "value": "Следобед"
+          },
+          "focus": {
+            "label": "Фокус",
+            "value": "Творчески занимания"
+          }
         }
       }
     },
     "support": {
-      "heading": "Clarity that supports every decision",
-      "copy": "When choices feel urgent, we keep the next step obvious: see what matters, know why it matters, and move with confidence.",
-      "button": "See how it works",
-      "primaryAlt": "Parent reviewing education options on a laptop",
-      "secondaryAlt": "Illustration of students reading and studying",
+      "heading": "Яснота, която подкрепя всяко решение",
+      "copy": "Открояваме най-важното, обясняваме компромисите и държим всяка стъпка фокусирана върху това, което е важно за вашето семейство.",
+      "button": "Вижте насочения процес",
+      "primaryAlt": "Родител разглежда варианти за обучение на лаптоп",
+      "secondaryAlt": "Илюстрация на ученици, които четат и учат",
       "cards": {
         "guided": {
-          "title": "Guided flow",
-          "text": "Structured prompts that point you to the right detail at the right time."
+          "title": "Насочени стъпки",
+          "text": "Кратки насоки извеждат точните детайли в точния момент."
         },
         "confident": {
-          "title": "Confident choices",
-          "text": "Readable information that surfaces trade-offs without overwhelming you."
+          "title": "Уверен избор",
+          "text": "Сравнение на едно място прави компромисите ясни, без да претоварва."
         }
       }
     }
+  },
+  "footer": {
+    "tagline": "Ясно и локално търсене на училища за семейства и общности.",
+    "navLabel": "Навигация във футъра",
+    "links": {
+      "idea": "Визия",
+      "flow": "Как работи",
+      "trust": "Защо ние",
+      "support": "Подкрепа"
+    },
+    "copy": "(c) {{year}} Shkoli.bg. Всички права запазени."
   },
   "notFound": {
     "title": "Страницата не е намерена",
