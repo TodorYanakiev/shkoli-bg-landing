@@ -1,0 +1,125 @@
+{
+  "common": {
+    "brandName": "Shkoli.bg",
+    "logoAlt": "Shkoli.bg logo"
+  },
+  "header": {
+    "cta": "Get started",
+    "navLabel": "Primary navigation"
+  },
+  "home": {
+    "eyebrow": "School search without the stress",
+    "title": "Find the right school with <highlight>Shkoli.bg</highlight>",
+    "subtitle": "Search, compare, choose your school.",
+    "heroAlt": "Illustration of students studying",
+    "hero": {
+      "secondaryCta": "How it works"
+    },
+    "trust": {
+      "eyebrow": "Built for confident decisions",
+      "heading": "Built with families in mind",
+      "copy": "We focus on clarity, local context, and the community voice so decisions are informed.",
+      "items": {
+        "local": "Local focus",
+        "criteria": "Clear criteria",
+        "community": "Community voice"
+      }
+    },
+    "idea": {
+      "heading": "The goal of Shkoli.bg",
+      "left": "We connect people to nearby schools in Bulgarian community centers, with the confidence that every decision is informed by real needs and accessible resources.",
+      "right": "Our goal is for your school choice to reflect your goals, location, and budget, while also promoting the work of community centers.",
+      "button": "See how we guide you",
+      "cards": {
+        "discovery": {
+          "title": "Easy search",
+          "text": "Find schools by your interests, needs, and location."
+        },
+        "guidance": {
+          "title": "Wide coverage",
+          "text": "We work with Bulgarian community centers in Sofia, Varna, Plovdiv, and Burgas."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "text": "Compare what matters - time, price, results - in no time."
+        },
+        "community": {
+          "title": "Community",
+          "text": "Share your experience with others and learn from them."
+        }
+      }
+    },
+    "flow": {
+      "eyebrow": "How it works",
+      "heading": "A clear path from search to choice",
+      "copy": "Choose an area, filter by key criteria, and compare programs side by side.",
+      "primaryCta": "Explore nearby options",
+      "secondaryCta": "See decision support",
+      "steps": {
+        "location": {
+          "title": "Start with your area",
+          "text": "Choose a neighborhood or city to see the closest options."
+        },
+        "filters": {
+          "title": "Focus the results",
+          "text": "Use goals, schedule, and budget to narrow the list."
+        },
+        "compare": {
+          "title": "Compare with context",
+          "text": "See key details in one place and choose confidently."
+        }
+      },
+      "panel": {
+        "eyebrow": "Quick overview",
+        "title": "Everything important at a glance",
+        "copy": "Each option shows the details families look for most often.",
+        "items": {
+          "distance": {
+            "label": "Distance",
+            "value": "15 min walk"
+          },
+          "schedule": {
+            "label": "Schedule",
+            "value": "Afternoon"
+          },
+          "focus": {
+            "label": "Focus",
+            "value": "Creative activities"
+          }
+        }
+      }
+    },
+    "support": {
+      "heading": "Clarity that supports every decision",
+      "copy": "We highlight what matters most, explain the trade-offs, and keep every step focused on what is important for your family.",
+      "button": "See the guided process",
+      "primaryAlt": "Parent reviewing learning options on a laptop",
+      "secondaryAlt": "Illustration of students reading and studying",
+      "cards": {
+        "guided": {
+          "title": "Guided steps",
+          "text": "Short guidance surfaces the right details at the right moment."
+        },
+        "confident": {
+          "title": "Confident choice",
+          "text": "Comparing in one place makes trade-offs clear without overload."
+        }
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Clear and local school discovery for families and communities.",
+    "navLabel": "Footer navigation",
+    "links": {
+      "idea": "Vision",
+      "flow": "How it works",
+      "trust": "Why us",
+      "support": "Support"
+    },
+    "copy": "(c) {{year}} Shkoli.bg. All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "cta": "Back to home"
+  }
+}
