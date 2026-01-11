@@ -36,33 +36,54 @@ type FlowPanelItem = {
 const cardIcons: Record<string, ReactNode> = {
   discovery: (
     <svg className="h-9 w-9 text-brand" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <circle cx="11" cy="11" r="5.5" stroke="currentColor" strokeWidth="1.6" />
       <path
-        d="M12 3.5c-4.7 0-8.5 3.8-8.5 8.5s3.8 8.5 8.5 8.5 8.5-3.8 8.5-8.5-3.8-8.5-8.5-8.5Zm0 3.5a5 5 0 0 1 5 5c0 2.8-2.2 5-5 5a5 5 0 0 1-5-5c0-2.8 2.2-5 5-5Zm0 2.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Z"
-        fill="currentColor"
+        d="M16 16l4 4"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
       />
     </svg>
   ),
   guidance: (
     <svg className="h-9 w-9 text-brand" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path
-        d="M12 4c-1.8 0-3.4.7-4.6 1.8l-1.7-1.7-1.4 1.4 1.6 1.6A7.9 7.9 0 0 0 4 12c0 4.4 3.6 8 8 8 2.1 0 4-.8 5.4-2.2l1.8 1.8 1.4-1.4-1.9-1.9A8 8 0 0 0 20 12c0-4.4-3.6-8-8-8Zm0 2c3.3 0 6 2.7 6 6 0 1.2-.4 2.3-1 3.2l-2.2-2.2c.1-.3.2-.6.2-1 0-1.6-1.4-3-3-3-.4 0-.7.1-1 .2L8.8 6.9A5.9 5.9 0 0 1 12 6Zm-4 6c0-.4.1-.7.2-1l5.7 5.7c-.7.2-1.2.3-1.9.3-3.3 0-6-2.7-6-6Z"
-        fill="currentColor"
+        d="M3.5 6.5 9 4l6 2.5 5.5-2V18l-5.5 2-6-2.5-5.5 2V6.5Z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9 4v13.5M15 6.5v13"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
       />
     </svg>
   ),
   transparency: (
     <svg className="h-9 w-9 text-brand" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path
-        d="M6.5 4.5h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Zm0 2v11h11v-11h-11Zm3 2.5h5v2h-5v-2Zm0 3.5h5v2h-5v-2Zm-2-3.5h1.5v2H7.5v-2Zm0 3.5h1.5v2H7.5v-2Z"
-        fill="currentColor"
-      />
+      <path d="M6 4v16M12 4v16M18 4v16" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="6" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="12" cy="14" r="2.2" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="18" cy="7" r="2.2" stroke="currentColor" strokeWidth="1.6" />
     </svg>
   ),
   community: (
     <svg className="h-9 w-9 text-brand" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <circle cx="8.5" cy="9" r="3" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="17" cy="10" r="2.5" stroke="currentColor" strokeWidth="1.6" />
       <path
-        d="M8 4.5a3 3 0 1 1-.1 6 3 3 0 0 1 .1-6Zm8 0a3 3 0 1 1 0 6 3 3 0 0 1 0-6ZM8 13c2.7 0 5 1.1 5 3.5V19H3v-2.5C3 14.1 5.3 13 8 13Zm8 0c.5 0 1 .1 1.5.2A4.9 4.9 0 0 1 21 17.5V19h-6v-2.5c0-.7-.2-1.3-.6-1.8l.1-.1A4.6 4.6 0 0 1 16 13Z"
-        fill="currentColor"
+        d="M3.5 19v-1.2c0-2.4 3.1-4.3 6.5-4.3s6.5 1.9 6.5 4.3V19"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M16.2 13.7c2.3.4 3.8 1.6 3.8 3.1V19"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
       />
     </svg>
   ),
@@ -145,14 +166,21 @@ const HomePage = (): JSX.Element => {
       icon: (
         <svg className="h-7 w-7 text-brand" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path
-            d="M5.5 4.5h13a1 1 0 0 1 1 1v8.8a1 1 0 0 1-.6.9l-6.5 2.8a1 1 0 0 1-.8 0l-6.5-2.8a1 1 0 0 1-.6-.9V5.5a1 1 0 0 1 1-1Z"
+            d="M6 5a2 2 0 1 1 0 4a2 2 0 0 1 0-4Z"
             stroke="currentColor"
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <path
-            d="M6.5 7.5h11M6.5 10.5h5.5"
+            d="M6 9v4c0 2.2 1.8 4 4 4h2c2.2 0 4 1.8 4 4"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M18 19a2 2 0 1 1 0-4a2 2 0 0 1 0 4Z"
             stroke="currentColor"
             strokeWidth="1.5"
             strokeLinecap="round"
@@ -167,14 +195,14 @@ const HomePage = (): JSX.Element => {
       icon: (
         <svg className="h-7 w-7 text-brand" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path
-            d="M12 4.5c4.1 0 7.5 2 7.5 4.5s-3.4 4.5-7.5 4.5S4.5 11.5 4.5 9 7.9 4.5 12 4.5Z"
+            d="M12 4.5 18 6.5v5.5c0 4.2-2.7 7.6-6 8.9-3.3-1.3-6-4.7-6-8.9V6.5l6-2Z"
             stroke="currentColor"
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <path
-            d="M4.6 14.3c1.3 1.3 4.1 2.2 7.4 2.2 3.3 0 6.1-.9 7.4-2.2M4.9 17.1c1.2 1.1 3.9 1.9 7.1 1.9 3.2 0 5.9-.8 7.1-1.9"
+            d="M9 12.5l2 2 4-4"
             stroke="currentColor"
             strokeWidth="1.5"
             strokeLinecap="round"

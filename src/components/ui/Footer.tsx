@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/logo.svg'
 import { primaryButtonClass } from '../../constants/classes'
 import { APP_BASE_URL } from '../../constants/env'
 
@@ -13,7 +14,7 @@ const Footer = (): JSX.Element => {
         <div className="flex flex-col gap-3">
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/logo.png"
+              src={logo}
               alt={t('common.logoAlt')}
               className="h-10 w-10 object-contain"
               loading="lazy"

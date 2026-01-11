@@ -8,71 +8,71 @@
     "navLabel": "Primary navigation"
   },
   "home": {
-    "eyebrow": "School search, simplified",
-    "title": "Welcome to <highlight>Shkoli.bg</highlight> lorem ipsum dolor sit amet",
-    "subtitle": "Find nearby educational opportunities with confidence. loer lorem lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet, consectetur adipiscing elit.",
-    "heroAlt": "Students studying illustration",
+    "eyebrow": "School search without the stress",
+    "title": "Find the right school with <highlight>Shkoli.bg</highlight>",
+    "subtitle": "Search, compare, choose your school.",
+    "heroAlt": "Illustration of students studying",
     "hero": {
       "secondaryCta": "How it works"
     },
     "trust": {
-      "eyebrow": "Built for confident choices",
-      "heading": "Designed with families in mind",
-      "copy": "We focus on clarity, local context, and community input so decisions feel grounded.",
+      "eyebrow": "Built for confident decisions",
+      "heading": "Built with families in mind",
+      "copy": "We focus on clarity, local context, and the community voice so decisions are informed.",
       "items": {
         "local": "Local focus",
         "criteria": "Clear criteria",
-        "community": "Community input"
+        "community": "Community voice"
       }
     },
     "idea": {
-      "heading": "The platform vision in action",
-      "left": "We connect families to nearby educational options with clear guidance, curated insights, and the confidence that each choice is informed by real needs.",
-      "right": "Our experience is designed to remove noise: consistent program details, transparent comparisons, and pathways that adapt to the way parents actually decide.",
-      "button": "Learn how we guide you",
+      "heading": "The goal of Shkoli.bg",
+      "left": "We connect people to nearby schools in Bulgarian community centers, with the confidence that every decision is informed by real needs and accessible resources.",
+      "right": "Our goal is for your school choice to reflect your goals, location, and budget, while also promoting the work of community centers.",
+      "button": "See how we guide you",
       "cards": {
         "discovery": {
-          "title": "Smart discovery",
-          "text": "See programs mapped to your location and goals, with essentials highlighted."
+          "title": "Easy search",
+          "text": "Find schools by your interests, needs, and location."
         },
         "guidance": {
-          "title": "Personal guidance",
-          "text": "Follow step-by-step cues that keep decisions simple and on track."
+          "title": "Wide coverage",
+          "text": "We work with Bulgarian community centers in Sofia, Varna, Plovdiv, and Burgas."
         },
         "transparency": {
-          "title": "Transparent info",
-          "text": "Compare what matters - hours, costs, outcomes - without digging for details."
+          "title": "Transparency",
+          "text": "Compare what matters - time, price, results - in no time."
         },
         "community": {
-          "title": "Community voices",
-          "text": "Learn from real parent feedback and share your own experience with others."
+          "title": "Community",
+          "text": "Share your experience with others and learn from them."
         }
       }
     },
     "flow": {
       "eyebrow": "How it works",
       "heading": "A clear path from search to choice",
-      "copy": "Set your area, filter by what matters, and compare programs side by side.",
+      "copy": "Choose an area, filter by key criteria, and compare programs side by side.",
       "primaryCta": "Explore nearby options",
       "secondaryCta": "See decision support",
       "steps": {
         "location": {
           "title": "Start with your area",
-          "text": "Pick a neighborhood or city to see nearby options first."
+          "text": "Choose a neighborhood or city to see the closest options."
         },
         "filters": {
           "title": "Focus the results",
-          "text": "Use goals, schedule, and budget to narrow the list quickly."
+          "text": "Use goals, schedule, and budget to narrow the list."
         },
         "compare": {
           "title": "Compare with context",
-          "text": "See key details in one view so trade-offs stay obvious."
+          "text": "See key details in one place and choose confidently."
         }
       },
       "panel": {
-        "eyebrow": "Decision snapshot",
-        "title": "Everything essential, one glance",
-        "copy": "Each option highlights the details families ask about most.",
+        "eyebrow": "Quick overview",
+        "title": "Everything important at a glance",
+        "copy": "Each option shows the details families look for most often.",
         "items": {
           "distance": {
             "label": "Distance",
@@ -80,35 +80,35 @@
           },
           "schedule": {
             "label": "Schedule",
-            "value": "Afternoons"
+            "value": "Afternoon"
           },
           "focus": {
             "label": "Focus",
-            "value": "Creative arts"
+            "value": "Creative activities"
           }
         }
       }
     },
     "support": {
       "heading": "Clarity that supports every decision",
-      "copy": "We highlight the essentials, explain the trade-offs, and keep each step focused on what matters to your family.",
-      "button": "See the guided flow",
-      "primaryAlt": "Parent reviewing education options on a laptop",
+      "copy": "We highlight what matters most, explain the trade-offs, and keep every step focused on what is important for your family.",
+      "button": "See the guided process",
+      "primaryAlt": "Parent reviewing learning options on a laptop",
       "secondaryAlt": "Illustration of students reading and studying",
       "cards": {
         "guided": {
           "title": "Guided steps",
-          "text": "Short prompts surface the right details exactly when you need them."
+          "text": "Short guidance surfaces the right details at the right moment."
         },
         "confident": {
-          "title": "Confident choices",
-          "text": "Side-by-side information makes trade-offs clear without overload."
+          "title": "Confident choice",
+          "text": "Comparing in one place makes trade-offs clear without overload."
         }
       }
     }
   },
   "footer": {
-    "tagline": "Simple, local school discovery for families and communities.",
+    "tagline": "Clear and local school discovery for families and communities.",
     "navLabel": "Footer navigation",
     "links": {
       "idea": "Vision",
@@ -120,6 +120,6 @@
   },
   "notFound": {
     "title": "Page not found",
-    "cta": "Return home"
+    "cta": "Back to home"
   }
 }
