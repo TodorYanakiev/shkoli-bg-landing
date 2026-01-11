@@ -1,8 +1,10 @@
+import type { ReactElement } from 'react'
+
 type PaperEdgeProps = {
   className?: string
 }
 
-const PaperEdge = ({ className = '' }: PaperEdgeProps): JSX.Element => (
+const PaperEdge = ({ className = '' }: PaperEdgeProps): ReactElement => (
   <svg
     className={`block ${className}`}
     viewBox="0 0 1200 120"

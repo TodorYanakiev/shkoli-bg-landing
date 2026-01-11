@@ -1,10 +1,11 @@
+import type { ReactElement } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logo.svg'
 import { primaryButtonClass } from '../../constants/classes'
 import { APP_BASE_URL } from '../../constants/env'
 
-const Header = (): JSX.Element => {
+const Header = (): ReactElement => {
   const { t } = useTranslation()
 
   return (

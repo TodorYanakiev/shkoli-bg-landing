@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import type { ReactElement, ReactNode } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import heroImage from '../assets/hero.png'
 import heroIllustration from '../assets/hero-illustration.png'
@@ -135,7 +135,7 @@ const trustIcons: Record<string, ReactNode> = {
   ),
 }
 
-const HomePage = (): JSX.Element => {
+const HomePage = (): ReactElement => {
   const { t } = useTranslation()
 
   const ideaCards: IdeaCard[] = [

@@ -1,10 +1,11 @@
+import type { ReactElement } from 'react'
 import { Outlet } from 'react-router-dom'
 import Footer from '../components/ui/Footer'
 import Header from '../components/ui/Header'
 import MeshBackdrop from '../components/ui/MeshBackdrop'
 import { INITIAL_GRADIENT } from '../utils/gradient'
 
-const RootLayout = (): JSX.Element => (
+const RootLayout = (): ReactElement => (
   <div className="relative isolate flex min-h-screen flex-col overflow-hidden text-slate-900">
     <MeshBackdrop />
     <div
