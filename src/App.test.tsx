@@ -9,6 +9,9 @@ describe('App', () => {
   it('renders the hero eyebrow text', async () => {
     const { default: App } = await import('./App')
     render(<App />)
-    expect(screen.getByText('School search without the stress')).not.toBeNull()
+    const eyebrowTexts = ['School search without the stress', 'Търсене на школа, без напрежение']
+    expect(
+      screen.getByText((content) => eyebrowTexts.includes(content ?? ''))
+    ).not.toBeNull()
   })
 })
