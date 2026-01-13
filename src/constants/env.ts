@@ -1,6 +1,7 @@
 const TEST_FALLBACKS: Record<string, string> = {
-  VITE_APP_BASE_URL: 'http://localhost:5174',
-}
+  VITE_APP_BASE_URL: "/app/",
+};
+
 
 const getEnv = (key: keyof ImportMetaEnv): string => {
   const value = import.meta.env[key]

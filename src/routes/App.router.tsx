@@ -3,21 +3,21 @@ import RootLayout from '../layouts/RootLayout'
 import HomePage from '../pages/HomePage'
 import NotFoundPage from '../pages/NotFoundPage'
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <RootLayout />,
+      children: [
+        { index: true, element: <HomePage /> },
+        { path: "*", element: <NotFoundPage /> },
+      ],
+    },
+  ],
   {
-    path: '/',
-    element: <RootLayout />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: '*',
-        element: <NotFoundPage />,
-      },
-    ],
-  },
-])
+    basename: "/landing",
+  }
+);
+
 
 export default router
