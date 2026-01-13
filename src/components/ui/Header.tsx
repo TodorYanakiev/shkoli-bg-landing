@@ -2,6 +2,7 @@ import type { ReactElement } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logo.svg'
+import LanguageToggle from './LanguageToggle'
 import { primaryButtonClass } from '../../constants/classes'
 import { APP_BASE_URL } from '../../constants/env'
 
@@ -51,9 +52,12 @@ const Header = (): ReactElement => {
             </a>
           </nav>
         </div>
-        <a href={APP_BASE_URL} className={primaryButtonClass}>
-          {t('header.cta')}
-        </a>
+        <div className="flex items-center gap-3">
+          <LanguageToggle />
+          <a href={APP_BASE_URL} className={primaryButtonClass}>
+            {t('header.cta')}
+          </a>
+        </div>
       </div>
     </header>
   )

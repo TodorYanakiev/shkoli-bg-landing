@@ -1,7 +1,14 @@
 {
   "common": {
     "brandName": "Shkoli.bg",
-    "logoAlt": "Shkoli.bg logo"
+    "logoAlt": "Shkoli.bg logo",
+    "languageSwitcher": {
+      "label": "Switch the site language to {{language}}",
+      "languages": {
+        "bg": "Bulgarian",
+        "en": "English"
+      }
+    }
   },
   "header": {
     "cta": "Get started",

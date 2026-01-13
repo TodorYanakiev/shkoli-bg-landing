@@ -1,7 +1,14 @@
 {
   "common": {
     "brandName": "Школи.бг",
-    "logoAlt": "Лого на Школи.бг"
+    "logoAlt": "Лого на Школи.бг",
+    "languageSwitcher": {
+      "label": "Смени езика на сайта на {{language}}",
+      "languages": {
+        "bg": "Български",
+        "en": "Английски"
+      }
+    }
   },
   "header": {
     "cta": "Започнете",
