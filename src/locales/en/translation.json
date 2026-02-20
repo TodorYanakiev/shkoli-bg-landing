@@ -36,7 +36,7 @@
       "heading": "The goal of Shkoli.bg",
       "left": "We connect people to nearby schools in Bulgarian community centers, with the confidence that every decision is informed by real needs and accessible resources.",
       "right": "Our goal is for your school choice to reflect your goals, location, and budget, while also promoting the work of community centers.",
-      "button": "See how we guide you",
+      "button": "Open the map",
       "cards": {
         "discovery": {
           "title": "Easy search",
@@ -60,8 +60,8 @@
       "eyebrow": "How it works",
       "heading": "A clear path from search to choice",
       "copy": "Choose an area, filter by key criteria, and compare programs side by side.",
-      "primaryCta": "Explore nearby options",
-      "secondaryCta": "See decision support",
+      "primaryCta": "See options in Sofia",
+      "secondaryCta": "Explore lyceums",
       "steps": {
         "location": {
           "title": "Start with your area",

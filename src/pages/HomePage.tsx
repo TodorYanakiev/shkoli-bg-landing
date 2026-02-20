@@ -137,6 +137,11 @@ const trustIcons: Record<string, ReactNode> = {
 
 const HomePage = (): ReactElement => {
   const { t } = useTranslation()
+  const normalizedBaseUrl = APP_BASE_URL.endsWith('/') ? APP_BASE_URL.slice(0, -1) : APP_BASE_URL
+  const buildAppHref = (path: string): string => `${normalizedBaseUrl}${path}`
+  const mapHref = buildAppHref('/map')
+  const mapSearchSofiaHref = `${mapHref}?search=${encodeURIComponent('София')}`
+  const lyceumsHref = buildAppHref('/lyceums')
 
   const ideaCards: IdeaCard[] = [
     {
@@ -351,9 +356,9 @@ const HomePage = (): ReactElement => {
             <div className="grid gap-8 lg:grid-cols-2 lg:items-start lg:gap-12">
               <div className="flex flex-col gap-4">
                 <p className="text-lg text-slate-700 sm:text-xl">{t('home.idea.left')}</p>
-                <button type="button" className={`${primaryButtonClass} w-fit`}>
+                <a href={mapHref} className={`${primaryButtonClass} w-fit`}>
                   {t('home.idea.button')}
-                </button>
+                </a>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="text-lg text-slate-700 sm:text-xl">{t('home.idea.right')}</p>
@@ -416,10 +421,10 @@ const HomePage = (): ReactElement => {
               ))}
             </div>
             <div className="flex flex-wrap items-center gap-3 pt-2">
-              <a href={APP_BASE_URL} className={primaryButtonClass}>
+              <a href={mapSearchSofiaHref} className={primaryButtonClass}>
                 {t('home.flow.primaryCta')}
               </a>
-              <a href="#support" className={outlineButtonClass}>
+              <a href={lyceumsHref} className={outlineButtonClass}>
                 {t('home.flow.secondaryCta')}
               </a>
             </div>
